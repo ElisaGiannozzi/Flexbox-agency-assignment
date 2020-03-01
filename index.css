@@ -120,7 +120,9 @@ body {
     color: #13253A;  
 }
 
-/*missing styling for the plus sign*/
+.plus {
+    color: #FF7F57; 
+}
 
 .number__explanation {
     font-size: 16px; 
@@ -184,6 +186,7 @@ hr {
     display: flex; 
     justify-content: center; 
     min-height: 450px; 
+    margin-top: 80px; 
 }
 
 .section5__text-container {
@@ -199,13 +202,21 @@ hr {
     list-style-type: none; 
     font-weight: bold; 
     color: #13253A; 
+    padding-left: 0px; 
 }
 
 .check-container {
     display: flex; 
+    margin-bottom: 15px; 
+}
+
+.check {
+    margin-right: 20px; 
 }
 
 .section5__img-container {
+    display: flex;
+    flex-direction: column;
     min-width: 30%; 
 }
 
@@ -288,7 +299,11 @@ hr {
     opacity: 0.2; 
 }
 
-/*can't figure out how to re-size the textarea*/ 
+.textarea {
+    min-height: 120px; 
+}
+
+/*can't figure out how to adjust the vertical alignment of the placeholder in the textarea field*/ 
 
 .footer-text {
     font-size: 12px; 
