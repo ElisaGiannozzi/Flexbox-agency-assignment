@@ -106,10 +106,12 @@ body {
     justify-content: center;
     align-items: center; 
     min-height: 205px; 
+    margin-bottom: 40px; 
 }
 
 .element__container {
-    margin-left: 70px; 
+    margin-left: 70px;
+    margin-bottom: 40px;  
 }
 
 .element__number {
@@ -131,12 +133,173 @@ body {
     align-items: center;
 }
 
+.section__intro--title {
+    font-size: 38px; 
+    font-weight: bold; 
+    margin: 0px; 
+}
+
 .section4__text-container {
     display: flex; 
     justify-content: center; 
+    line-height: 27px; 
+}
+
+.section4__text-container--right {
+    margin-left: 40px; 
+}
+
+.section4__text--italic {
+    font-size: 20px; 
+    font-style: italic; 
+    color: #13253A; 
+}
+
+.section4__text--normal {
+    font-size: 16px; 
+    color: #13253A; 
 }
 
 .section4__logos-container {
     display: flex; 
+    align-items: center;
     justify-content: center; 
+    min-height: 66px; 
+    min-width: 970px; 
+    margin-top: 50px; 
+    margin-bottom: 50px;  
+}
+
+.logo {
+    margin-left: 50px; 
+}
+
+hr {
+    width: 1170px; 
+    height: 1px; 
+    background-color: #DCE2E6;
+}
+
+.section5 {
+    display: flex; 
+    justify-content: center; 
+    min-height: 450px; 
+}
+
+.section5__text-container {
+    display: flex; 
+    flex-direction: column;  
+} 
+
+.section5__text--normal {
+    color: #13253A; 
+}
+
+.check-list { 
+    list-style-type: none; 
+    font-weight: bold; 
+    color: #13253A; 
+}
+
+.check-container {
+    display: flex; 
+}
+
+.section5__img-container {
+    min-width: 30%; 
+}
+
+.section6 {
+    display: flex;  
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    background-color: #FF7F57;  
+    color: white; 
+    text-align: center; 
+    min-height: 434px; 
+}
+
+.section6__intro--title {
+    font-size: 46px; 
+    font-weight: bold; 
+    margin: 0px; 
+}
+
+.button--get-started {
+    min-width: 336px; 
+    min-height: 60px; 
+    border: none; 
+    color: white; 
+    background-color: #2557AB; 
+    font-size: 17px; 
+}
+
+.button--get-started:hover {
+    background-color: #063a91; 
+}
+
+.section7 {
+    display: flex;  
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+    background-color: #11364E;  
+    color: white; 
+    min-height: 817px;  
+}
+
+.section7-title {
+    font-size: 38px; 
+}
+
+.form-container {
+    display: flex; 
+    flex-direction: column; 
+}
+
+.input-field {
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: white;  
+    background-color: #11364E; 
+
+}
+
+.label {
+    display: flex; 
+    flex-direction: column; 
+    font-size: 13px; 
+    margin-bottom: 40px; 
+    line-height: 22px; 
+}
+
+.submit-button {
+    min-width: 370px; 
+    min-height: 60px; 
+    background-color: #FF7F57; 
+    color: white; 
+    border: none; 
+    font-size: 17px; 
+}
+
+.input-field::placeholder {
+    color: white; 
+    opacity: 0.2; 
+}
+
+/*can't figure out how to re-size the textarea*/ 
+
+.footer-text {
+    font-size: 12px; 
+    color: white; 
+    opacity: 0.2; 
+}
+
+.footer__container{
+    display: flex; 
+    justify-content: center;
+    background-color: #13253A; 
+    margin: 0px; 
+    min-height: 47px; 
 }
