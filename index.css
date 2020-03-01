@@ -1,0 +1,142 @@
+body {
+    margin: 0px; 
+    font-family: Nunito; 
+}
+
+.nav__container {
+    display: flex;
+    justify-content: space-around;  
+    background-color: #F4F6F7;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-around; 
+    min-width: 20%; 
+    list-style-type: none;  
+}
+
+.nav__list a{
+    text-decoration: none; 
+    color: #13253A; 
+}
+
+.nav__list a:visited{
+    text-decoration: underline; 
+}
+
+.nav__list a:hover{
+    text-decoration: underline; 
+}
+
+.section1 {
+    min-height: 100vh; 
+}
+
+.section1__container {
+    display: flex; 
+    justify-content: center;  
+    align-items: center; 
+    background-color: #F4F6F7;  
+    min-height: 100vh; 
+}
+
+.button__get-consultation {
+    min-width: 336px; 
+    min-height: 60px; 
+    background-color: #FF7F57;
+    color: white; 
+    font-size: 17px; 
+    border: none; 
+    border-radius: 3px;
+    margin-top: 180px;  
+}
+
+.button__get-consultation:hover{
+    background-color: #be5612; 
+}
+
+.section1__img {
+    margin-left: 50px; 
+}
+
+.section2 {
+    margin-top: 40px; 
+}
+
+.section__intro--heading {
+    font-size: 38px; 
+}
+
+.section2__intro {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.section__intro--small {
+    color: #2557AB; 
+    font-size: 16px; 
+}
+
+.reasons__container {
+    display: flex; 
+    justify-content: center; 
+    text-align: center; 
+}
+
+.reason__title {
+    font-size: 20px; 
+    font-weight: bold;
+    color: #3B4D6C; 
+}
+
+.reason__text {
+    font-size: 16px; 
+    color: #13253A; 
+}
+
+.reason__container {
+    margin-left: 30px; 
+}
+
+.section3 {
+    background-color: #F4F6F7; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 205px; 
+}
+
+.element__container {
+    margin-left: 70px; 
+}
+
+.element__number {
+    font-size: 46px; 
+    margin-bottom: 0px;
+    color: #13253A;  
+}
+
+/*missing styling for the plus sign*/
+
+.number__explanation {
+    font-size: 16px; 
+    color: #2557AB; 
+}
+
+.section4__intro-container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.section4__text-container {
+    display: flex; 
+    justify-content: center; 
+}
+
+.section4__logos-container {
+    display: flex; 
+    justify-content: center; 
+}
