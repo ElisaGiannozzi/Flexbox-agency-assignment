@@ -62,10 +62,12 @@ body {
 
 .section2 {
     margin-top: 40px; 
+    margin-bottom: 40px; 
 }
 
 .section__intro--heading {
-    font-size: 38px; 
+    font-size: 38px;
+    margin: 0px;  
 }
 
 .section2__intro {
@@ -77,6 +79,7 @@ body {
 .section__intro--small {
     color: #2557AB; 
     font-size: 16px; 
+    margin: 0px; 
 }
 
 .reasons__container {
