@@ -297,6 +297,10 @@ hr {
     font-size: 17px; 
 }
 
+.submit-button:hover {
+    background-color: #be5612; 
+}
+
 .input-field::placeholder {
     color: white; 
     opacity: 0.2; 
